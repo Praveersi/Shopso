@@ -1,9 +1,12 @@
 document.cookie = "orderId="+0 +",counter="+0
 
+// Dynamically load header and footer
+
 let httpRequest = new XMLHttpRequest(),
 jsonArray,
 method = "GET",
 jsonRequestURL = "https://5d76bf96515d1a0014085cf9.mockapi.io/order";
+
 
 httpRequest.open(method, jsonRequestURL, true);
 httpRequest.onreadystatechange = function()

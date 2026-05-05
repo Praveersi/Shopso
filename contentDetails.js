@@ -62,6 +62,7 @@ function dynamicContentDetails(ob)
     h3ProductPreviewDiv.appendChild(h3ProductPreviewText)
     productPreviewDiv.appendChild(h3ProductPreviewDiv)
 
+    // console.log(productPreviewDiv);
     let i;
     for(i=0; i<ob.photos.length; i++)
     {

@@ -109,7 +109,8 @@ httpRequest.onreadystatechange = function()
             let item = document.cookie.split(',')[0].split('=')[1].split(" ")
             console.log(counter)
             console.log(item)
-
+             
+            // console.log(contentTitle[item[0]-1])
             let i;
             let totalAmount = 0
             for(i=0; i<counter; i++)

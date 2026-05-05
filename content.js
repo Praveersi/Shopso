@@ -2,6 +2,7 @@
 
 let contentTitle;
 
+// console.log(document.cookie);
 console.log(document.cookie);
 function dynamicClothingSection(ob) {
   let boxDiv = document.createElement("div");
